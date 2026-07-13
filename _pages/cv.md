@@ -85,16 +85,17 @@ Skills
    * **Programming Languages**: Python, R, MATLAB
    * **Python Libraries/Frameworks**: PyTorch, huggingface, NumPy, Pandas, RDKit, Matplotlib, ...
    * **Other Tools**: Linux, Git, PyMOL, Docker, PostgreSQL, ChemDraw, LaTeX, Adobe Illustrator, Microsoft Office
-   * **Experimental Chemistry**: Organic Synthesis, NMR, FT-IR, MastReNova
+   * **Experimental Chemistry**: Organic Synthesis, NMR, FT-IR, MestReNova
 * **Languages**
 <span style="display: inline-block; width: 100%;"><span class="tooltip">English<span class="tooltiptext">Fluent</span></span>, 
 <span class="tooltip">Russian<span class="tooltiptext">Mother tongue</span></span>, 
 <span class="tooltip">Korean<span class="tooltiptext">TOPIK 5급</span></span>, 
 <span class="tooltip">Kazakh<span class="tooltiptext">Received some parts of secondary education in Kazakh</span></span></span>
 * **Soft skills**
-Academic Writing, <span style="display: inline-block; width: 100%;"><span class="tooltip">Event Organization<span class="tooltiptext">Through work at a non-profit fund and as a lab job @ Young Lab</span></span>, 
+<span style="display: inline-block; width: 100%;">Academic Writing, 
+<span class="tooltip">Event Organization<span class="tooltiptext">Through work at a non-profit fund and as a lab job @ Young Lab</span></span>, 
 <span class="tooltip">Mentoring<span class="tooltiptext">Through guiding an intern project</span></span>,
-<span class="tooltip">Project Leading<span class="tooltiptext">Through work at a non-profit fund</span></span>
+<span class="tooltip">Project Leading<span class="tooltiptext">Through work at a non-profit fund</span></span></span>
 
 Teaching and Volunteering
 ======

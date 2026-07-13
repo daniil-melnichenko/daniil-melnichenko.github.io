@@ -104,16 +104,9 @@ blockquote {
   margin: 2em 1em 2em 0;
   padding: 1.5em 1.5em 1.5em 2em;
   font-style: italic;
-  background: linear-gradient(90deg, rgba(59, 130, 246, 0.05) 0%, transparent 100%);
-  border-left: 4px solid #3b82f6;
+  background: linear-gradient(90deg, rgba(15, 118, 110, 0.05) 0%, transparent 100%);
+  border-left: 4px solid $accent-color;
   border-radius: 0 8px 8px 0;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-  transition: all 0.3s ease;
-  
-  &:hover {
-    box-shadow: 0 4px 12px rgba(59, 130, 246, 0.15);
-    transform: translateX(4px);
-  }
 
   cite {
     font-style: italic;
@@ -163,7 +156,7 @@ td > code {
   border: 1px solid $border-color;
   border-radius: 4px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
-  color: #2563eb;
+  color: $accent-color;
   font-weight: 500;
   transition: all 0.2s ease;
 
@@ -194,7 +187,7 @@ hr {
     left: 0;
     width: 60px;
     height: 2px;
-    background: linear-gradient(90deg, #3b82f6, transparent);
+    background: linear-gradient(90deg, $accent-color, transparent);
   }
 }
 

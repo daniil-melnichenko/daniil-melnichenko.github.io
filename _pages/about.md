@@ -7,41 +7,69 @@ redirect_from:
   - /about.html
 ---
 
-Hi, I’m Daniil — an AI researcher at drug discovery company [HITS](https://hits.ai/index_en.html) based in Seoul, passionate about the intersection of AI and life sciences. My journey started with a love for math and natural sciences back in middle school, and over time, that curiosity led me to bioinformatics algorithms and RNA biology, thanks to [Prof. Young-Suk Lee]((https://young.kaist.ac.kr/)). Previously working on protein-conditioned RNA design, now, I’m diving into generative AI for protein-ligand complexes and ligand synthesis, exploring how machine learning can help us better understand biology and accelerate drug discovery.
-
-I’m especially interested in using AI to make a real impact in medicine and healthcare, whether it’s through medical imaging, electronic health records (EHRs), or uncovering the deeper mechanisms of RNA/protein folding, molecular interactions, and metabolite studies. Since I’m still early in my career, I see this as a time for exploration—learning, experimenting, and figuring out where I can contribute the most.
+Hi, I’m Daniil — an AI researcher at drug discovery company [HITS](https://hits.ai/index_en.html) based in Seoul, passionate about the intersection of AI and life sciences. My journey started with a love for math and natural sciences back in middle school, and over time, that curiosity led me to bioinformatics algorithms and RNA biology, thanks to [Prof. Young-Suk Lee](https://young.kaist.ac.kr/). Previously working on protein-conditioned RNA design, now, I’m diving into generative AI for protein-ligand complexes and ligand synthesis, exploring how machine learning can help us better understand biology and accelerate drug discovery.
 
 Outside of research, you’ll probably find me hiking, discovering new coffee spots, or picking up new languages (currently trying to learn Japanese and get more fluent in Korean by learning Hanja). Always curious, always learning.
 
-Keywords: *Generative AI and distribution learning, Foundation Models for Biology, Ligand and Macromolecules Representation Learning*
+<div class="tag-list">
+  <span>Generative AI & Distribution Learning</span>
+  <span>Foundation Models for Biology</span>
+  <span>Ligand & Macromolecule Representation Learning</span>
+</div>
 
 Education
 ======
 
-**MS in Bio&Brain Engineering**  
-  <span style="display: inline-block; width: 100%;">Advisor: Dr. Young-suk Lee</span>  
-  <span style="display: inline-block; width: 100%;">KAIST, 2025</span>
+<div class="entry">
+  <div class="entry__header">
+    <span class="entry__title">MS in Bio&amp;Brain Engineering</span>
+    <span class="entry__date">2025</span>
+  </div>
+  <div class="entry__meta">KAIST &middot; Advisor: Dr. Young-suk Lee</div>
+</div>
 
-**BSc, cum laude, in Chemistry and Bio&Brain Engineering** 
-  <span style="display: inline-block; width: 100%;">KAIST, 2023</span>
-
+<div class="entry">
+  <div class="entry__header">
+    <span class="entry__title">BSc, cum laude, in Chemistry and Bio&amp;Brain Engineering</span>
+    <span class="entry__date">2023</span>
+  </div>
+  <div class="entry__meta">KAIST</div>
+</div>
 
 Research Experience
 ======
-**AI Researcher** @ *AI Research Team 1, [HITS Inc.](https://hits.ai/index_en.html)*
-<span style="display: inline-block; width: 100%;">*Aug 2025 - Present | Seoul, Republic of Korea*</span>
 
-**Graduate Researcher** @ *[Laboratory of Quantitative and Computational Biology](https://young.kaist.ac.kr/), KAIST*
-<span style="display: inline-block; width: 100%;">Principal Investigator: Dr. Young-suk Lee</span>
-<span style="display: inline-block; width: 100%;">*Aug 2023 - Aug 2025 | Daejeon, Republic of Korea*</span>
+<div class="entry">
+  <div class="entry__header">
+    <span class="entry__title">AI Researcher &middot; <a href="https://hits.ai/index_en.html">HITS Inc.</a></span>
+    <span class="entry__date">Aug 2025 – Present</span>
+  </div>
+  <div class="entry__meta">AI Research Team 1 &middot; Seoul, Republic of Korea</div>
+</div>
 
-**Undergraduate Intern** @ *[Laboratory of Quantitative and Computational Biology](https://young.kaist.ac.kr/), KAIST*
-<span style="display: inline-block; width: 100%;">Principal Investigator: Dr. Young-suk Lee</span>
-<span style="display: inline-block; width: 100%;">*Jul 2022 - Aug 2023 | Daejeon, Republic of Korea*</span>
+<div class="entry">
+  <div class="entry__header">
+    <span class="entry__title">Graduate Researcher &middot; <a href="https://young.kaist.ac.kr/">Laboratory of Quantitative and Computational Biology</a></span>
+    <span class="entry__date">Aug 2023 – Aug 2025</span>
+  </div>
+  <div class="entry__meta">PI: Dr. Young-suk Lee &middot; KAIST, Daejeon, Republic of Korea</div>
+</div>
 
-**Undergraduate Intern** @ *[Center for Cell-Encapsulation Research](http://cisgroup.kaist.ac.kr/index.html), KAIST*
-<span style="display: inline-block; width: 100%;">Principal Investigator: Dr. Insung S. Choi</span>
-<span style="display: inline-block; width: 100%;">*Feb 2021 - Dec 2021 | Daejeon, Republic of Korea*</span>
+<div class="entry">
+  <div class="entry__header">
+    <span class="entry__title">Undergraduate Intern &middot; <a href="https://young.kaist.ac.kr/">Laboratory of Quantitative and Computational Biology</a></span>
+    <span class="entry__date">Jul 2022 – Aug 2023</span>
+  </div>
+  <div class="entry__meta">PI: Dr. Young-suk Lee &middot; KAIST, Daejeon, Republic of Korea</div>
+</div>
+
+<div class="entry">
+  <div class="entry__header">
+    <span class="entry__title">Undergraduate Intern &middot; <a href="http://cisgroup.kaist.ac.kr/index.html">Center for Cell-Encapsulation Research</a></span>
+    <span class="entry__date">Feb 2021 – Dec 2021</span>
+  </div>
+  <div class="entry__meta">PI: Dr. Insung S. Choi &middot; KAIST, Daejeon, Republic of Korea</div>
+</div>
 
 <!-- Publications
 ======
