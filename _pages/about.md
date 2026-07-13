@@ -12,9 +12,10 @@ Hi, I’m Daniil — an AI researcher at drug discovery company [HITS](https://h
 Outside of research, you’ll probably find me hiking, discovering new coffee spots, or picking up new languages (currently trying to learn Japanese and get more fluent in Korean by learning Hanja). Always curious, always learning.
 
 <div class="tag-list">
-  <span>Generative AI & Distribution Learning</span>
-  <span>Foundation Models for Biology</span>
-  <span>Ligand & Macromolecule Representation Learning</span>
+  <span>Generative AI</span>
+  <span>Foundation Models for Biology &amp; Chemistry</span>
+  <span>Representation Learning</span>
+  <span>Ligand &amp; Macromolecule Representation Learning</span>
 </div>
 
 Education
