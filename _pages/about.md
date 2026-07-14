@@ -62,7 +62,7 @@ Research Experience
     <span class="entry__title">AI Researcher &middot; <a href="https://hits.ai/index_en.html">HITS Inc.</a></span>
     <span class="entry__date">Aug 2025 – Present</span>
   </div>
-  <div class="entry__meta">AI Research Team 1 &middot; Seoul, Republic of Korea</div>
+  <div class="entry__meta">Advanced AI Team &middot; Seoul, Republic of Korea</div>
 </div>
 
 <div class="entry">

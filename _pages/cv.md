@@ -25,7 +25,7 @@ Education
 
 Research Experience
 ======
-**AI Researcher** @ *AI Research Team 1, [HITS Inc.](https://hits.ai/index_en.html)*
+**AI Researcher** @ *Advanced AI Team, [HITS Inc.](https://hits.ai/index_en.html)*
 <span style="display: inline-block; width: 100%;">*Aug 2025 - Present | Seoul, Republic of Korea*</span>
 
 **Graduate Researcher** @ *[Laboratory of Quantitative and Computational Biology](https://young.kaist.ac.kr/), KAIST*
