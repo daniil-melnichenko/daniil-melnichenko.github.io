@@ -91,18 +91,9 @@
 
   img {
     max-width: 175px;
-    border-radius: 50%;
-    transition: all 0.3s ease;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-
-    @include breakpoint($large) {
-      padding: 5px;
-      border: 2px solid rgba(15, 118, 110, 0.25);
-
-      &:hover {
-        border-color: rgba(15, 118, 110, 0.5);
-      }
-    }
+    border-radius: 10px;
+    border: 1px solid $border-color;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
   }
 }
 
@@ -246,23 +237,31 @@
   }
 
   li {
-    white-space: nowrap;
+    /* nowrap clipped the employer line against the 250px sidebar */
+    white-space: normal;
+    font-size: 0.9em;
+    line-height: 1.5;
+  }
+
+  /* non-link rows (location, employer) — align with the link rows below */
+  li.author__desktop {
+    padding: 0.4em 0.6em;
+    color: $gray;
   }
 
   a {
     display: block;
-    margin-bottom: 5px;
-    padding: 0.5em 0.75em;
+    margin-bottom: 2px;
+    padding: 0.4em 0.6em;
     color: inherit;
-    font-size: $type-size-5;
+    font-size: inherit;
     text-decoration: none;
-    border-radius: 4px;
-    transition: all 0.2s ease;
+    border-radius: 6px;
+    transition: color 0.2s ease, background 0.2s ease;
 
     &:hover {
-      background: linear-gradient(90deg, rgba(59, 130, 246, 0.1) 0%, transparent 100%);
+      background: rgba(15, 118, 110, 0.07);
       color: $link-color;
-      padding-left: 1em;
     }
   }
 }

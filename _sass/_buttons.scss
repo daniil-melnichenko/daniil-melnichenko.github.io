@@ -8,23 +8,28 @@
 
 .btn {
   /* default button */
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5em;
   margin-bottom: 0.25em;
-  padding: 0.5em 1em;
+  padding: 0.5em 1.05em;
   color: #fff !important;
   font-family: $sans-serif;
-  font-size: $type-size-6;
-  font-weight: bold;
+  font-size: 0.85em;
+  font-weight: 600;
+  line-height: 1.4;
   text-align: center;
-  text-decoration: none;
+  text-decoration: none !important;
   background: $accent-color;
-  border: 0 !important;
-  border-radius: 8px;
+  border: 1px solid $accent-color;
+  border-radius: 6px;
   cursor: pointer;
   transition: all 0.2s ease;
 
   &:hover {
+    color: #fff !important;
     background: $link-color-hover;
+    border-color: $link-color-hover;
   }
 
   .icon {
@@ -46,16 +51,31 @@
     }
   }
 
+  /* quiet counterpart to the default button — same shape, teal outline */
+
+  &--outline {
+    color: $accent-color !important;
+    background: transparent;
+    border-color: rgba(15, 118, 110, 0.35);
+
+    &:hover {
+      color: #fff !important;
+      background: $accent-color;
+      border-color: $accent-color;
+    }
+  }
+
   /* for dark backgrounds */
 
   &--inverse {
     color: $gray !important;
-    border: 1px solid $light-gray !important; /* override*/
     background-color: #fff;
+    border-color: $light-gray;
 
     &:hover {
       color: #fff !important;
-      border-color: $gray;
+      background-color: $accent-color;
+      border-color: $accent-color;
     }
   }
 

@@ -39,14 +39,15 @@
   }
 
   a {
+    color: $link-color;
     text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-decoration-color: rgba(15, 118, 110, 0.35);
+    text-underline-offset: 3px;
 
     &:hover {
-      text-decoration: underline;
-
-      img {
-        box-shadow: 0 0 10px rgba(#000, 0.25);
-      }
+      color: $link-color-hover;
+      text-decoration-color: currentColor;
     }
   }
 }
@@ -68,18 +69,22 @@
   font-family: $sans-serif-narrow;
   font-size: 1.3em;
   font-weight: 600;
-  
-  a {
-    color: #1f2937;
-    transition: color 0.3s ease;
-
-    &:hover {
-      color: $accent-color;
-    }
-  }
 
   a + a {
     opacity: 0.5;
+  }
+}
+
+/* post/publication titles are headings, not body links — keep them dark and unadorned */
+.archive .archive__item-title a,
+.page__content .archive__item-title a {
+  color: #1f2937;
+  text-decoration: none;
+  transition: color 0.2s ease;
+
+  &:hover {
+    color: $accent-color;
+    text-decoration: none;
   }
 }
 
@@ -113,19 +118,11 @@
 
 .archive__item:hover {
   .archive__item-teaser {
-    box-shadow: 0 8px 20px rgba(15, 118, 110, 0.15);
-    transform: scale(1.02);
-    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 4px 14px rgba(15, 118, 110, 0.12);
   }
 
   .archive__item-title {
     color: $accent-color;
-  }
-  
-  .archive__item-title a {
-    &::after {
-      width: 100%;
-    }
   }
 }
 
@@ -156,9 +153,8 @@
   }
   
   &:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-    border-color: rgba(59, 130, 246, 0.3);
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.07);
+    border-color: rgba(15, 118, 110, 0.35);
   }
 
   .page__meta {

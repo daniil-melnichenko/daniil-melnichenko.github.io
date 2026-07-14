@@ -14,11 +14,7 @@ body {
   color: $text-color;
   font-family: $global-font-family;
   line-height: 1.7;
-  background: 
-    radial-gradient(circle at 20% 50%, rgba(59, 130, 246, 0.03) 0%, transparent 50%),
-    radial-gradient(circle at 80% 80%, rgba(139, 92, 246, 0.03) 0%, transparent 50%),
-    linear-gradient(180deg, #ffffff 0%, #fafbfc 100%);
-  background-attachment: fixed;
+  background: $background-color;
   min-height: 100vh;
 
   &.overflow--hidden {
