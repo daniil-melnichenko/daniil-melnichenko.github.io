@@ -49,3 +49,16 @@ Verification:
 
 The cleanup and additional paper are complete. No research analysis was
 needed for this presentation/content change.
+
+## Follow-up: consolidate repeated presentations
+
+User requested merging the three identical RNA presentation entries into
+one, with all venues listed below the shared title and authors. Preserve
+venue links, dates, poster labels, the ISMB/ECCB oral-presenter note, and
+equal-contribution markers. Verify that the built section has two entries
+and retains all three RNA presentation venues.
+
+Completed: Jekyll build and generated-HTML checks passed. The section now
+contains two distinct entries, with all three RNA venues, both venue links,
+dates, equal-contribution markers, and the oral-presenter note preserved.
+`git diff --check` passed.

@@ -68,8 +68,13 @@ redirect_from:
     <h2 id="papers-heading">Papers</h2>
     <div class="cv-entry">
       <h3>Designing functional RNA sequences directly from protein topology with EchoRNA</h3>
-      <p class="cv-authors"><strong>Daniil Melnichenko<sup>*</sup></strong>, Joohyun Cho<sup>*</sup>, Jongmin Lim<sup>*</sup>, Sungchul Yang, Haeun Back, Hyeonggon Cho, Dongsup Kim</p>
+      <p class="cv-authors"><strong>Daniil Melnichenko<sup>*</sup></strong>, Joohyun Cho<sup>*</sup>, Jongmin Lim<sup>*</sup>, Sungchul Yang, Haeun Back, Hyeonggon Cho, Dongsup Kim, Young-suk Lee</p>
       <p class="cv-meta">Under revision</p>
+    </div>
+    <div class="cv-entry">
+      <h3>Synthesis-aware generative design in trillion-scale chemical spaces for automated drug discovery</h3>
+      <p class="cv-authors">Seonghwan Seo, Yulseung Sung, Sang-Yeon Hwang, Mincheol Kang, Joonseong Lee, Samuele Bordi, Luka Raguž, Jihye Choi, <strong>Daniil Melnichenko</strong>, Wan Namkung, Sehan Lee, Jaechang Lim, Benedikt Wanner, Jung Min Han, Woo Youn Kim</p>
+      <p class="cv-meta">Under review</p>
     </div>
     <p class="cv-note"><sup>*</sup> Equal contribution.</p>
   </section>
@@ -86,20 +91,9 @@ redirect_from:
       <li class="cv-entry">
         <h3>Designing protein-interacting RNA sequences using structure-based generative models</h3>
         <p class="cv-authors"><strong>Daniil Melnichenko<sup>*</sup></strong>, Joohyun Cho<sup>*</sup>, Jongmin Lim, Dongsup Kim, Young-suk Lee</p>
-        <p><a href="https://www.iscb.org/ismbeccb2025/home">ISMB/ECCB</a></p>
-        <p class="cv-meta">Poster · Jul 2025 · Joohyun Cho: oral presenter</p>
-      </li>
-      <li class="cv-entry">
-        <h3>Designing protein-interacting RNA sequences using structure-based generative models</h3>
-        <p class="cv-authors"><strong>Daniil Melnichenko<sup>*</sup></strong>, Joohyun Cho<sup>*</sup>, Jongmin Lim, Dongsup Kim, Young-suk Lee</p>
-        <p>KSBI RNA Symposium</p>
-        <p class="cv-meta">Poster · Jul 2025</p>
-      </li>
-      <li class="cv-entry">
-        <h3>Designing protein-interacting RNA sequences using structure-based generative models</h3>
-        <p class="cv-authors"><strong>Daniil Melnichenko<sup>*</sup></strong>, Joohyun Cho<sup>*</sup>, Jongmin Lim, Dongsup Kim, Young-suk Lee</p>
-        <p><a href="https://recomb.org/recomb2025/">RECOMB</a></p>
-        <p class="cv-meta">Poster · Apr 2025</p>
+        <p><a href="https://www.iscb.org/ismbeccb2025/home">ISMB/ECCB</a> <span class="cv-meta">· Poster · Jul 2025 · Joohyun Cho: oral presenter</span></p>
+        <p>KSBI RNA Symposium <span class="cv-meta">· Poster · Jul 2025</span></p>
+        <p><a href="https://recomb.org/recomb2025/">RECOMB</a> <span class="cv-meta">· Poster · Apr 2025</span></p>
       </li>
     </ol>
     <p class="cv-note"><sup>*</sup> Equal contribution.</p>
