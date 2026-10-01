@@ -1,165 +1,190 @@
 ---
 layout: archive
-title: "CV"
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+<div class="cv">
+  <nav class="cv-nav" aria-label="Vitae sections">
+    <a href="#education">Education</a>
+    <a href="#research-experience">Research</a>
+    <a href="#papers">Papers</a>
+    <a href="#posters-and-workshops">Posters &amp; Workshops</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#skills">Skills</a>
+    <a href="#teaching-and-volunteering">Teaching &amp; Volunteering</a>
+  </nav>
 
-Education
-======
+  <section class="cv-section" id="education" aria-labelledby="education-heading">
+    <h2 id="education-heading">Education</h2>
+    <div class="cv-entry">
+      <h3>MS in Bio &amp; Brain Engineering</h3>
+      <p class="cv-meta">2025 · Korea Advanced Institute of Science &amp; Technology</p>
+      <p>Advisor: Dr. Young-suk Lee</p>
+    </div>
+    <div class="cv-entry">
+      <h3>BSc in Chemistry</h3>
+      <p class="cv-meta">2023 · Korea Advanced Institute of Science &amp; Technology</p>
+      <p>Cum laude</p>
+    </div>
+    <div class="cv-entry">
+      <h3>BSc in Bio &amp; Brain Engineering</h3>
+      <p class="cv-meta">2023 · Korea Advanced Institute of Science &amp; Technology</p>
+      <p>Cum laude</p>
+    </div>
+  </section>
 
-**MS in Bio&Brain Engineering**  
-  <span style="display: inline-block; width: 100%;">Advisor: Dr. Young-suk Lee</span>  
-  <span style="display: inline-block; width: 100%;">Korea Advanced Institute of Science & Technology, 2025</span>
+  <section class="cv-section" id="research-experience" aria-labelledby="research-experience-heading">
+    <h2 id="research-experience-heading">Research Experience</h2>
+    <div class="cv-entry">
+      <h3>AI Researcher</h3>
+      <p class="cv-meta">Aug 2025 – Present · Seoul, Republic of Korea</p>
+      <p>Advanced AI Team, <a href="https://hits.ai/index_en.html">HITS Inc.</a></p>
+    </div>
+    <div class="cv-entry">
+      <h3>Graduate Researcher</h3>
+      <p class="cv-meta">Aug 2023 – Aug 2025 · Daejeon, Republic of Korea</p>
+      <p><a href="https://young.kaist.ac.kr/">Laboratory of Quantitative and Computational Biology</a>, KAIST</p>
+      <p>Principal Investigator: Dr. Young-suk Lee</p>
+    </div>
+    <div class="cv-entry">
+      <h3>Undergraduate Intern</h3>
+      <p class="cv-meta">Jul 2022 – Aug 2023 · Daejeon, Republic of Korea</p>
+      <p><a href="https://young.kaist.ac.kr/">Laboratory of Quantitative and Computational Biology</a>, KAIST</p>
+      <p>Principal Investigator: Dr. Young-suk Lee</p>
+    </div>
+    <div class="cv-entry">
+      <h3>Undergraduate Intern</h3>
+      <p class="cv-meta">Feb 2021 – Dec 2021 · Daejeon, Republic of Korea</p>
+      <p><a href="http://cisgroup.kaist.ac.kr/index.html">Center for Cell-Encapsulation Research</a>, KAIST</p>
+      <p>Principal Investigator: Dr. Insung S. Choi</p>
+    </div>
+  </section>
 
-**BSc, cum laude, in Chemistry**  
-  <span style="display: inline-block; width: 100%;">Korea Advanced Institute of Science & Technology, 2023</span>
+  <section class="cv-section" id="papers" aria-labelledby="papers-heading">
+    <h2 id="papers-heading">Papers</h2>
+    <div class="cv-entry">
+      <h3>Designing functional RNA sequences directly from protein topology with EchoRNA</h3>
+      <p class="cv-authors"><strong>Daniil Melnichenko<sup>*</sup></strong>, Joohyun Cho<sup>*</sup>, Jongmin Lim<sup>*</sup>, Sungchul Yang, Haeun Back, Hyeonggon Cho, Dongsup Kim</p>
+      <p class="cv-meta">Under revision</p>
+    </div>
+    <p class="cv-note"><sup>*</sup> Equal contribution.</p>
+  </section>
 
-**BSc, cum laude, in Bio&Brain Engineering**  
-  <span style="display: inline-block; width: 100%;">Korea Advanced Institute of Science & Technology, 2023</span>  
+  <section class="cv-section" id="posters-and-workshops" aria-labelledby="posters-and-workshops-heading">
+    <h2 id="posters-and-workshops-heading">Posters and Workshops</h2>
+    <ol class="cv-publications" reversed>
+      <li class="cv-entry">
+        <h3>Robust Many-Objective Molecular Design with Preference-Gated GFlowNets</h3>
+        <p class="cv-authors"><strong>Daniil Melnichenko<sup>*</sup></strong>, Seonghwan Seo<sup>*</sup>, Sang-Yeon Hwang, Jaechang Lim, Woo Youn Kim</p>
+        <p>NeurIPS 2026 Workshop on AI for Drug Discovery</p>
+        <p class="cv-meta">Workshop · Accepted September 2026</p>
+      </li>
+      <li class="cv-entry">
+        <h3>Designing protein-interacting RNA sequences using structure-based generative models</h3>
+        <p class="cv-authors"><strong>Daniil Melnichenko<sup>*</sup></strong>, Joohyun Cho<sup>*</sup>, Jongmin Lim, Dongsup Kim, Young-suk Lee</p>
+        <p><a href="https://www.iscb.org/ismbeccb2025/home">ISMB/ECCB</a></p>
+        <p class="cv-meta">Poster · Jul 2025 · Joohyun Cho: oral presenter</p>
+      </li>
+      <li class="cv-entry">
+        <h3>Designing protein-interacting RNA sequences using structure-based generative models</h3>
+        <p class="cv-authors"><strong>Daniil Melnichenko<sup>*</sup></strong>, Joohyun Cho<sup>*</sup>, Jongmin Lim, Dongsup Kim, Young-suk Lee</p>
+        <p>KSBI RNA Symposium</p>
+        <p class="cv-meta">Poster · Jul 2025</p>
+      </li>
+      <li class="cv-entry">
+        <h3>Designing protein-interacting RNA sequences using structure-based generative models</h3>
+        <p class="cv-authors"><strong>Daniil Melnichenko<sup>*</sup></strong>, Joohyun Cho<sup>*</sup>, Jongmin Lim, Dongsup Kim, Young-suk Lee</p>
+        <p><a href="https://recomb.org/recomb2025/">RECOMB</a></p>
+        <p class="cv-meta">Poster · Apr 2025</p>
+      </li>
+    </ol>
+    <p class="cv-note"><sup>*</sup> Equal contribution.</p>
+  </section>
 
+  <section class="cv-section" id="achievements" aria-labelledby="achievements-heading">
+    <h2 id="achievements-heading">Achievements</h2>
+    <div class="cv-entry">
+      <h3>Honor Program Student</h3>
+      <p class="cv-meta">Mar 2022 – Aug 2023</p>
+      <p>Recognized for completing at least 82 credits within the first five semesters with a particularly high GPA.</p>
+    </div>
+    <div class="cv-entry">
+      <h3>Undergraduate Research Program Fellowship (URP)</h3>
+      <p class="cv-meta">Jun – Dec 2021</p>
+      <p>Awarded a scholarship for a six-month research project at the Center for Cell-Encapsulation Research, KAIST.</p>
+      <p><strong>Project:</strong> Photosensitizer-Metal Complex-Based Film Formation for Antimicrobial Photodynamic Inactivation.</p>
+    </div>
+    <div class="cv-entry">
+      <h3>Special Prize “Pride of the Nation”</h3>
+      <p class="cv-meta">Nov 2019 · First President Foundation</p>
+      <p>For achievements representing Kazakhstan at international science competitions.</p>
+    </div>
+    <div class="cv-entry">
+      <h3>International Chemistry Olympiad Medals</h3>
+      <p class="cv-meta">May, Jul 2019</p>
+      <p>Silver medal · 53rd International Mendeleev Chemistry Olympiad, St. Petersburg, Russia.<br>Bronze medal · 51st International Chemistry Olympiad, Paris, France.</p>
+    </div>
+  </section>
 
-Research Experience
-======
-**AI Researcher** @ *Advanced AI Team, [HITS Inc.](https://hits.ai/index_en.html)*
-<span style="display: inline-block; width: 100%;">*Aug 2025 - Present | Seoul, Republic of Korea*</span>
+  <section class="cv-section" id="skills" aria-labelledby="skills-heading">
+    <h2 id="skills-heading">Skills</h2>
+    <dl class="cv-skills">
+      <div><dt>Programming</dt><dd>Python, R, MATLAB</dd></div>
+      <div><dt>Libraries</dt><dd>PyTorch, Hugging Face, NumPy, Pandas, RDKit, Matplotlib</dd></div>
+      <div><dt>Tools</dt><dd>Linux, Git, PyMOL, Docker, PostgreSQL, ChemDraw, LaTeX, Adobe Illustrator, Microsoft Office</dd></div>
+      <div><dt>Experimental chemistry</dt><dd>Organic synthesis, NMR, FT-IR, MestReNova</dd></div>
+      <div><dt>Languages</dt><dd>English (fluent); Russian (native); Korean (TOPIK level 5); Kazakh (partly educated in Kazakh).</dd></div>
+      <div><dt>Professional skills</dt><dd>Academic writing; event organization through nonprofit and Young Lab work; mentoring an intern project; project leadership.</dd></div>
+    </dl>
+  </section>
 
-**Graduate Researcher** @ *[Laboratory of Quantitative and Computational Biology](https://young.kaist.ac.kr/), KAIST*
-<span style="display: inline-block; width: 100%;">Principal Investigator: Dr. Young-suk Lee</span>
-<span style="display: inline-block; width: 100%;">*Aug 2023 - Aug 2025 | Daejeon, Republic of Korea*</span>
-
-**Undergraduate Intern** @ *[Laboratory of Quantitative and Computational Biology](https://young.kaist.ac.kr/), KAIST*
-<span style="display: inline-block; width: 100%;">Principal Investigator: Dr. Young-suk Lee</span>
-<span style="display: inline-block; width: 100%;">*Jul 2022 - Aug 2023 | Daejeon, Republic of Korea*</span>
-
-**Undergraduate Intern** @ *[Center for Cell-Encapsulation Research](http://cisgroup.kaist.ac.kr/index.html), KAIST*
-<span style="display: inline-block; width: 100%;">Principal Investigator: Dr. Insung S. Choi</span>
-<span style="display: inline-block; width: 100%;">*Feb 2021 - Dec 2021 | Daejeon, Republic of Korea*</span>
-
-<!-- 
-Publications
-======
-**to be updated soon** -->
-
-Presentations
-======
-<ol>
-<li value="3"><strong>Designing protein-interacting RNA sequences using structure-based generative models</strong> @ <em><a href="https://www.iscb.org/ismbeccb2025/home">ISMB/ECCB</a></em>, Jul 2025 [poster]<br>
-<span style="display: inline-block; width: 100%;"><strong>Daniil Melnichenko*</strong>, Joohyun Cho*(oral presenter), Jongmin Lim, Dongsup Kim, Young-suk Lee</span></li>
-
-<li value="2"><strong>Designing protein-interacting RNA sequences using structure-based generative models</strong> @ KSBI RNA Symposium, Jul 2025 [poster]<br>
-<span style="display: inline-block; width: 100%;"><strong>Daniil Melnichenko*</strong>, Joohyun Cho*, Jongmin Lim, Dongsup Kim, Young-suk Lee</span></li>
-
-<li value="1"><strong>Designing protein-interacting RNA sequences using structure-based generative models</strong> @ <em><a href="https://recomb.org/recomb2025/">RECOMB</a></em>, Apr 2025 [poster]<br>
-<span style="display: inline-block; width: 100%;"><strong>Daniil Melnichenko*</strong>, Joohyun Cho*, Jongmin Lim, Dongsup Kim, Young-suk Lee</span></li>
-</ol>
-
-*\*equal contributions*
-
-Achievements
-======
-* **Prize-winner at International Chemistry Olympiads**  
-  <span style="display: inline-block; width: 100%;">*May, Jul 2019*</span>  
-  <ul>
-      <li>Silver medal at the 53rd International Mendeleev Chemistry Olympiad (St. Petersburg, Russia)</li>
-      <li>Bronze medal at the 51st International Chemistry Olympiad (Paris, France)</li>
-  </ul>
-* **Special Prize “Pride of the Nation” from the First President Foundation**  
-  <span style="display: inline-block; width: 100%;">*Nov 2019*</span>  
-  <span style="display: inline-block; width: 100%;">For achievements in representing Kazakhstan at International Science Competitions.</span>
-* **Undergraduate Research Program Fellowship (URP)**  
-  <span style="display: inline-block; width: 100%;">*Jun - Dec 2021*</span>  
-  <span style="display: inline-block; width: 100%;">Awarded scholarship based on the proposal evaluation to proceed with 6-month research at the Center for Cell-Encapsulation Research, KAIST.  
-  **Project title:** Photosensitizer-Metal Complex-Based Film Formation for Antimicrobial Photodynamic Inactivation.</span>
-* **Honor Program Student**  
-  <span style="display: inline-block; width: 100%;">*Mar 2022 - Aug 2023*</span>  
-  <span style="display: inline-block; width: 100%;">Awarded to students that accumulated at least 82 credits within first 5 semesters and achieved a particularly high GPA.</span>
-
-Skills
-======
-* **Technical Skills**
-   * **Programming Languages**: Python, R, MATLAB
-   * **Python Libraries/Frameworks**: PyTorch, huggingface, NumPy, Pandas, RDKit, Matplotlib, ...
-   * **Other Tools**: Linux, Git, PyMOL, Docker, PostgreSQL, ChemDraw, LaTeX, Adobe Illustrator, Microsoft Office
-   * **Experimental Chemistry**: Organic Synthesis, NMR, FT-IR, MestReNova
-* **Languages**
-<span style="display: inline-block; width: 100%;"><span class="tooltip">English<span class="tooltiptext">Fluent</span></span>, 
-<span class="tooltip">Russian<span class="tooltiptext">Mother tongue</span></span>, 
-<span class="tooltip">Korean<span class="tooltiptext">TOPIK 5급</span></span>, 
-<span class="tooltip">Kazakh<span class="tooltiptext">Received some parts of secondary education in Kazakh</span></span></span>
-* **Soft skills**
-<span style="display: inline-block; width: 100%;">Academic Writing, 
-<span class="tooltip">Event Organization<span class="tooltiptext">Through work at a non-profit fund and as a lab job @ Young Lab</span></span>, 
-<span class="tooltip">Mentoring<span class="tooltiptext">Through guiding an intern project</span></span>,
-<span class="tooltip">Project Leading<span class="tooltiptext">Through work at a non-profit fund</span></span></span>
-
-Teaching and Volunteering
-======
-* **Bio-Data Engineering Teaching Assistant** @ *KAIST Department of Bio&Brain Engineering* 
-<span style="display: inline-block; width: 100%;">*Spring 2024, Spring 2025 | Daejeon, Republic of Korea*</span>
-<span style="display: inline-block; width: 100%;">Assisting with quiz preparation and coding assignment management.</span>
-
-* **Bio-Data Structures Teaching Assistant** @ *KAIST Department of Bio&Brain Engineering* 
-<span style="display: inline-block; width: 100%;">*Fall 2023, Fall 2024 | Daejeon, Republic of Korea*</span>
-<span style="display: inline-block; width: 100%;">Conducting study sessions with introduction to Python, Data Structures, and SSH. Assisting in
-grading programming assignments and final project submissions.</span>
-
-* **Programming for Engineering Biology Teaching Assistant** @ *KAIST Graduate School of Engineering Biology* 
-<span style="display: inline-block; width: 100%;">*Fall 2024 | Daejeon, Republic of Korea*</span>
-<span style="display: inline-block; width: 100%;">Conducting study sessions with introduction to Python and Data Structures. Assisting in
-grading programming assignments.</span>
-
-* **Academic Coach and Tutor** @ *KAIST ISSS and School of Freshmen*
-<span style="display: inline-block; width: 100%;">*Fall 2020 - Spring 2023 | Daejeon, Republic of Korea*</span>
-<span style="display: inline-block; width: 100%;">Tutoring General Chemistry I and Organic Chemistry II to undergraduate students majoring in Chemistry
-with emphasis on quantum mechanics, chemical thermodynamics, analytical chemistry, pericyclic reactions, and basics of metalorganic chemistry. </span>
-
-* **ESL Teaching Assistant** @ *KAIST School of Humanities and Social Science* 
-<span style="display: inline-block; width: 100%;">*Fall 2022, Spring 2023 | Daejeon, Republic of Korea*</span>
-<span style="display: inline-block; width: 100%;">Supporting teaching activities in Advanced English Listening and Intermediate English Listening and Speaking classes. Main activities included grading students’ presentations, giving feedback on their works, and supervising in-class activities.</span>
-
-* **High Council Member** @ *[Republican Board of Problem Authors in Olympiad Chemistry](https://qazcho.kz/) (non-profit)*
-<span style="display: inline-block; width: 100%;">*since Nov 2021*</span>
-<span style="display: inline-block; width: 100%;">Serving as a Jury member and a Problem Writer for Kazakhstan National Olympiads, as well as a Coach
-for the National Team of Kazakhstan at the International Chemistry Olympiads.</span>
-
-* **Head of Science Olympiad Projects** @ *[Beyond Curriculum Public Foundation](https://bc-pf.org/) (non-profit)*
-<span style="display: inline-block; width: 100%;">*May 2018 - Dec 2021 | Kazakhstan*</span>
-<span style="display: inline-block; width: 100%;">Organizing over 10 online Olympiads and Scientific Fests for High-Schoolers in Kazakhstan.
-Wrote several blogposts and conducted seminars for popularizing Chemistry amongst Middle and High Schools students.</span>
-
-
-<style>
-.tooltip {
-  position: relative;
-  display: inline-block;
-  border-bottom: 1px dotted black;
-}
-
-.tooltip .tooltiptext {
-  visibility: hidden;
-  width: 120px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  border-radius: 5px;
-  padding: 5px;
-  position: absolute;
-  z-index: 1;
-  bottom: 125%;
-  left: 50%;
-  margin-left: -60px;
-  opacity: 0;
-  transition: opacity 0.3s;
-  font-size: 12px;
-}
-
-.tooltip:hover .tooltiptext {
-  visibility: visible;
-  opacity: 0.9;
-}
-</style>
+  <section class="cv-section" id="teaching-and-volunteering" aria-labelledby="teaching-and-volunteering-heading">
+    <h2 id="teaching-and-volunteering-heading">Teaching and Volunteering</h2>
+    <div class="cv-entry">
+      <h3>Bio-Data Engineering Teaching Assistant</h3>
+      <p class="cv-meta">Spring 2024, Spring 2025 · Daejeon, Republic of Korea</p>
+      <p>KAIST Department of Bio &amp; Brain Engineering</p>
+      <p>Assisted with quiz preparation and coding assignment management.</p>
+    </div>
+    <div class="cv-entry">
+      <h3>Bio-Data Structures Teaching Assistant</h3>
+      <p class="cv-meta">Fall 2023, Fall 2024 · Daejeon, Republic of Korea</p>
+      <p>KAIST Department of Bio &amp; Brain Engineering</p>
+      <p>Led study sessions on Python, data structures, and SSH. Assisted with grading programming assignments and final projects.</p>
+    </div>
+    <div class="cv-entry">
+      <h3>Programming for Engineering Biology Teaching Assistant</h3>
+      <p class="cv-meta">Fall 2024 · Daejeon, Republic of Korea</p>
+      <p>KAIST Graduate School of Engineering Biology</p>
+      <p>Led study sessions on Python and data structures. Assisted with grading programming assignments.</p>
+    </div>
+    <div class="cv-entry">
+      <h3>Academic Coach and Tutor</h3>
+      <p class="cv-meta">Fall 2020 – Spring 2023 · Daejeon, Republic of Korea</p>
+      <p>KAIST ISSS and School of Freshmen</p>
+      <p>Tutored General Chemistry I and Organic Chemistry II, covering quantum mechanics, chemical thermodynamics, analytical chemistry, pericyclic reactions, and the basics of metalorganic chemistry.</p>
+    </div>
+    <div class="cv-entry">
+      <h3>ESL Teaching Assistant</h3>
+      <p class="cv-meta">Fall 2022, Spring 2023 · Daejeon, Republic of Korea</p>
+      <p>KAIST School of Humanities and Social Science</p>
+      <p>Supported Advanced English Listening and Intermediate English Listening and Speaking courses. Graded presentations, provided feedback, and supervised class activities.</p>
+    </div>
+    <div class="cv-entry">
+      <h3>High Council Member</h3>
+      <p class="cv-meta">Since Nov 2021</p>
+      <p><a href="https://qazcho.kz/">Republican Board of Problem Authors in Olympiad Chemistry</a> (nonprofit)</p>
+      <p>Jury member and problem writer for Kazakhstan National Olympiads; coach for the National Team of Kazakhstan at the International Chemistry Olympiads.</p>
+    </div>
+    <div class="cv-entry">
+      <h3>Head of Science Olympiad Projects</h3>
+      <p class="cv-meta">May 2018 – Dec 2021 · Kazakhstan</p>
+      <p><a href="https://bc-pf.org/">Beyond Curriculum Public Foundation</a> (nonprofit)</p>
+      <p>Organized over 10 online Olympiads and scientific festivals for high-school students. Wrote blog posts and held seminars to introduce chemistry to middle and high school students.</p>
+    </div>
+  </section>
+</div>

@@ -34,3 +34,7 @@ Outside of research, you’ll probably find me hiking, discovering new coffee sp
   <span>Representation Learning</span>
   <span>Ligand &amp; Macromolecule Representation Learning</span>
 </div>
+
+## News
+
+- **September 2026** — Our paper "Robust Many-Objective Molecular Design with Preference-Gated GFlowNets" was accepted to the **NeurIPS 2026 Workshop on AI for Drug Discovery**.
