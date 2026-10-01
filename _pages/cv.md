@@ -20,47 +20,41 @@ redirect_from:
 
   <section class="cv-section" id="education" aria-labelledby="education-heading">
     <h2 id="education-heading">Education</h2>
-    <div class="cv-entry">
-      <h3>MS in Bio &amp; Brain Engineering</h3>
-      <p class="cv-meta">2025 · Korea Advanced Institute of Science &amp; Technology</p>
-      <p>Advisor: Dr. Young-suk Lee</p>
-    </div>
-    <div class="cv-entry">
-      <h3>BSc in Chemistry</h3>
-      <p class="cv-meta">2023 · Korea Advanced Institute of Science &amp; Technology</p>
-      <p>Cum laude</p>
-    </div>
-    <div class="cv-entry">
-      <h3>BSc in Bio &amp; Brain Engineering</h3>
-      <p class="cv-meta">2023 · Korea Advanced Institute of Science &amp; Technology</p>
-      <p>Cum laude</p>
+    <p class="cv-institution">Korea Advanced Institute of Science &amp; Technology (KAIST)</p>
+    <div class="cv-education">
+      <div class="cv-entry">
+        <h3>MS in Bio &amp; Brain Engineering</h3>
+        <p class="cv-meta">2025</p>
+        <p>Advisor: Dr. Young-suk Lee</p>
+      </div>
+      <div class="cv-entry">
+        <h3>BSc in Chemistry</h3>
+        <p class="cv-meta">2023 · Cum laude</p>
+      </div>
+      <div class="cv-entry">
+        <h3>BSc in Bio &amp; Brain Engineering</h3>
+        <p class="cv-meta">2023 · Cum laude</p>
+      </div>
     </div>
   </section>
 
   <section class="cv-section" id="research-experience" aria-labelledby="research-experience-heading">
     <h2 id="research-experience-heading">Research Experience</h2>
     <div class="cv-entry">
-      <h3>AI Researcher</h3>
-      <p class="cv-meta">Aug 2025 – Present · Seoul, Republic of Korea</p>
-      <p>Advanced AI Team, <a href="https://hits.ai/index_en.html">HITS Inc.</a></p>
+      <h3><a href="https://hits.ai/index_en.html">HITS Inc.</a></h3>
+      <p class="cv-meta">Advanced AI Team · Seoul, Republic of Korea</p>
+      <p class="cv-role"><strong>AI Researcher</strong><span class="cv-meta">Aug 2025 – Present</span></p>
     </div>
     <div class="cv-entry">
-      <h3>Graduate Researcher</h3>
-      <p class="cv-meta">Aug 2023 – Aug 2025 · Daejeon, Republic of Korea</p>
-      <p><a href="https://young.kaist.ac.kr/">Laboratory of Quantitative and Computational Biology</a>, KAIST</p>
-      <p>Principal Investigator: Dr. Young-suk Lee</p>
+      <h3><a href="https://young.kaist.ac.kr/">Laboratory of Quantitative and Computational Biology</a>, KAIST</h3>
+      <p class="cv-meta">Daejeon, Republic of Korea · Principal Investigator: Dr. Young-suk Lee</p>
+      <p class="cv-role"><strong>Graduate Researcher</strong><span class="cv-meta">Aug 2023 – Aug 2025</span></p>
+      <p class="cv-role"><strong>Undergraduate Intern</strong><span class="cv-meta">Jul 2022 – Aug 2023</span></p>
     </div>
     <div class="cv-entry">
-      <h3>Undergraduate Intern</h3>
-      <p class="cv-meta">Jul 2022 – Aug 2023 · Daejeon, Republic of Korea</p>
-      <p><a href="https://young.kaist.ac.kr/">Laboratory of Quantitative and Computational Biology</a>, KAIST</p>
-      <p>Principal Investigator: Dr. Young-suk Lee</p>
-    </div>
-    <div class="cv-entry">
-      <h3>Undergraduate Intern</h3>
-      <p class="cv-meta">Feb 2021 – Dec 2021 · Daejeon, Republic of Korea</p>
-      <p><a href="http://cisgroup.kaist.ac.kr/index.html">Center for Cell-Encapsulation Research</a>, KAIST</p>
-      <p>Principal Investigator: Dr. Insung S. Choi</p>
+      <h3><a href="http://cisgroup.kaist.ac.kr/index.html">Center for Cell-Encapsulation Research</a>, KAIST</h3>
+      <p class="cv-meta">Daejeon, Republic of Korea · Principal Investigator: Dr. Insung S. Choi</p>
+      <p class="cv-role"><strong>Undergraduate Intern</strong><span class="cv-meta">Feb 2021 – Dec 2021</span></p>
     </div>
   </section>
 
@@ -101,6 +95,11 @@ redirect_from:
 
   <section class="cv-section" id="achievements" aria-labelledby="achievements-heading">
     <h2 id="achievements-heading">Achievements</h2>
+    <div class="cv-entry">
+      <h3>First Prize — Anthropic and Replit Hackathon</h3>
+      <p class="cv-meta">Jun 2026 · Push to Prod Seoul</p>
+      <p>Won first prize with Wonho Zhung. <a href="https://www.sedaily.com/article/20057559">Read the news</a>.</p>
+    </div>
     <div class="cv-entry">
       <h3>Honor Program Student</h3>
       <p class="cv-meta">Mar 2022 – Aug 2023</p>

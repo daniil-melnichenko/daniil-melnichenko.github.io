@@ -9,18 +9,18 @@
     display: flex;
     flex-wrap: wrap;
     gap: 0.45em 1.25em;
-    margin: 1em 0 2.5em;
+    margin: 0.75em 0 1.5em;
     font-size: 0.85em;
   }
 
   .cv-section {
-    margin-bottom: 2.75em;
+    margin-bottom: 1.8em;
     scroll-margin-top: 6rem;
   }
 
   h2 {
-    margin: 0 0 1.1em !important;
-    padding-bottom: 0.55em;
+    margin: 0 0 0.7em !important;
+    padding-bottom: 0.4em;
     border-bottom: 1px solid $border-color;
     font-size: 1.25em;
     color: $accent-color;
@@ -34,13 +34,29 @@
   }
 
   .cv-entry {
-    margin-bottom: 1.6em;
+    margin-bottom: 1.1em;
 
     &:last-child { margin-bottom: 0; }
   }
 
   p {
     margin: 0.2em 0 0;
+  }
+
+  .cv-institution {
+    margin-bottom: 0.75em;
+  }
+
+  .cv-education {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1em 1.5em;
+
+    .cv-entry { margin-bottom: 0; }
+
+    @media (min-width: 768px) {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
   }
 
   .cv-meta,
@@ -51,6 +67,18 @@
 
   .cv-meta {
     font-variant-numeric: tabular-nums;
+  }
+
+  .cv-role {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 0.1em 1em;
+    margin-top: 0.35em;
+
+    strong { font-weight: 500; }
+    .cv-meta { white-space: nowrap; }
   }
 
   .cv-authors {
@@ -86,6 +114,10 @@
   }
 
   @media (max-width: 600px) {
+    .cv-role {
+      flex-direction: column;
+    }
+
     .cv-skills > div {
       grid-template-columns: minmax(0, 1fr);
       gap: 0.15em;

@@ -37,4 +37,6 @@ Outside of research, you’ll probably find me hiking, discovering new coffee sp
 
 ## News
 
+- **September 2026** — Appeared in [ChosunBiz](https://biz.chosun.com/science-chosun/science/2026/09/28/T4LHBGAU7NEM7AYAEJXEJARELU/), discussing our work on AI co-scientists at HITS.
 - **September 2026** — Our paper "Robust Many-Objective Molecular Design with Preference-Gated GFlowNets" was accepted to the **NeurIPS 2026 Workshop on AI for Drug Discovery**.
+- **June 2026** — Won first prize at the **Anthropic and Replit Hackathon** with **Wonho Zhung**. [Read the news](https://www.sedaily.com/article/20057559).
